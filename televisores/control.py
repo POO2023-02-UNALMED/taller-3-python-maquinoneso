@@ -2,6 +2,12 @@ class Control:
     def __init__(self):
         self.tv = None
 
+    def getTv(self):
+        return self.tv
+    
+    def setTv(self, NewTv):
+        self.tv = NewTv
+
     def enlazar(self, televisor):
         self.tv = televisor
         televisor.control = self
