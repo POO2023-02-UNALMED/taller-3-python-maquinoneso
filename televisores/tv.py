@@ -39,8 +39,6 @@ class TV:
     def setVolumen(self,Newvol):
         self.volumen=Newvol
 
-    def getnumTV(self):
-        return TV.numTV
     
     def setNumTV(value):
         TV.numTV = value
