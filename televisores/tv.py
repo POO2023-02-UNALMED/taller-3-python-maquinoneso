@@ -80,7 +80,7 @@ class TV:
             self.volumen += 1
 
     def volumenDown(self):
-        if self.estado == False or self.volumen == 1:
+        if self.estado == False or self.volumen == 0:
             None
         else:
             self.volumen -= 1
