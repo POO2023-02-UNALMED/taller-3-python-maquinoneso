@@ -33,5 +33,5 @@ class Control:
     def volumenDown(self):
         return self.tv.volumenDown()
     
-    def setVolumen(self):
-        return self.tv.setVolumen()
+    def setVolumen(self,value):
+        return self.tv.setVolumen(value)
