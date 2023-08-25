@@ -40,9 +40,12 @@ class TV:
         return self.volumen
     
     def setVolumen(self,Newvol):
-        self.volumen=Newvol
+        if self.estado == True and Newvol <= 7 and Newvol >= 1:
+            self.volumen=Newvol
+        else:
+            None
+        
 
-    
     def setNumTV(value):
         TV.numTV = value
 
