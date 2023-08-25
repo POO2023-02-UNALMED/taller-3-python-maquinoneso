@@ -6,7 +6,14 @@ class TV:
         self.canal=1
         self.volumen=1
         self.precio=500
+        self.control = None
         TV.numTV+=1
+
+    def setControl(self, control):
+        self.control=control
+
+    def getControl(self):
+        return self.control
 
     def setMarca(self, Newmarca):
         self.marca = Newmarca
